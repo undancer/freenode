@@ -1,1 +1,9 @@
-
+proxies:
+  - {name: 🇨🇦CA-209.209.9.149-00, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-29, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-33, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-34, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-47, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-76, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-82, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇬🇧GB-18.133.181.177-85, server: 18.133.181.177, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
