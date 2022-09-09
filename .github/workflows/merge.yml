@@ -37,7 +37,9 @@ jobs:
         tar -zxvf subconverter.tar.gz -C ./
         chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
         python ./utils/list_merge.py
-      
+    - name: copy
+      run: |
+        cp ./sub/sub_merge_yaml.yml ./sub/sub_merge_yaml.yaml   
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
