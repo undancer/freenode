@@ -1,9 +1,88 @@
 proxies:
-  - {name: 🇨🇦CA-209.209.9.149-00, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-29, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-33, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-34, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-47, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-76, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇨🇦CA-209.209.9.149-82, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
-  - {name: 🇬🇧GB-18.133.181.177-85, server: 18.133.181.177, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-000, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-029, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-036, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-067, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-087, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-088, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇫🇷FR-35.180.202.38-090, server: 35.180.202.38, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-092, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇨🇦CA-209.209.9.149-096, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true}
+  - {name: 🇩🇪DE-37.114.61.235-098, server: ae.755657.xyz, port: 2053, type: trojan, password: d8182760-49e8-4e76-abb2-f3ed213f1f7e, skip-cert-verify: true}
+  - {name: 🇬🇧GB-132.145.51.172-101, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true}
+  - {name: 🇬🇧GB-132.145.51.172-102, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true}
+  - {name: 🇩🇪DE-37.114.61.235-105, server: ae.755657.xyz, port: 2053, type: trojan, password: d8182760-49e8-4e76-abb2-f3ed213f1f7e, skip-cert-verify: true}
+  - {name: 🇩🇪DE-37.114.61.235-107, server: ae.755657.xyz, port: 2053, type: trojan, password: d8182760-49e8-4e76-abb2-f3ed213f1f7e, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.217.213-108, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
+  - {name: 🇯🇵JP-138.2.8.227-109, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, sni: www.sxsy88.tk, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.217.213-110, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.217.213-112, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.217.213-113, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.96.103-114, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
+  - {name: 🇰🇷KR-138.2.113.248-118, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true}
+  - {name: 🇰🇷KR-138.2.115.240-119, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
+  - {name: 🇰🇷KR-138.2.115.240-120, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
+  - {name: 🇰🇷KR-138.2.115.240-121, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.206-122, server: 213.183.59.206, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
+  - {name: 🇹🇼TW-165.154.226.137-123, server: 96tw.tfzhc.top, port: 443, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 96tw.tfzhc.top, skip-cert-verify: true}
+  - {name: 🇨🇭CH-185.126.116.125-127, server: 185.126.116.125, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇳🇱NL-213.183.59.190-129, server: 213.183.59.190, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 🇦🇺AU-152.67.98.30-130, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.44.176-131, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true}
+  - {name: 🇹🇼TW-165.154.243.144-132, server: 99tw01.tfzhc.top, port: 443, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 99tw01.tfzhc.top, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-133, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+  - {name: 🇦🇺AU-140.238.205.173-134, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true}
+  - {name: 🇦🇺AU-152.67.98.30-135, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
+  - {name: 🇬🇧GB-3.8.216.52-136, server: 3.8.216.52, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.206-137, server: 213.183.59.206, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
+  - {name: 🇯🇵JP-138.2.45.243-138, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.162.166-139, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true}
+  - {name: 🇦🇺AU-140.238.205.173-140, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.190.183-141, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.44.176-142, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
+  - {name: 🇦🇺AU-140.238.205.173-143, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true}
+  - {name: 🇦🇺AU-152.67.98.30-145, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.162.166-146, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.190.183-147, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.162.166-148, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.190-149, server: 213.183.59.190, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: 🇯🇵JP-168.138.44.176-150, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.162.166-151, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.206-152, server: 213.183.59.206, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
+  - {name: 🇯🇵JP-168.138.44.176-153, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
+  - {name: 🇮🇳IN-152.67.160.174-154, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-157, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-158, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-159, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+  - {name: 🇯🇵JP-18.179.205.215-162, server: 18.179.205.215, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.190-164, server: 213.183.59.190, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇳🇱NL-213.183.59.190-170, server: 213.183.59.190, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: 🇯🇵JP-85.208.108.19-171, server: 85.208.108.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦CA-134.195.198.95-172, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦CA-134.195.198.95-173, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵JP-85.208.108.93-174, server: 85.208.108.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇯🇵JP-85.208.108.93-175, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵JP-85.208.108.19-176, server: 85.208.108.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦CA-134.195.198.95-177, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵JP-85.208.108.93-178, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵JP-85.208.108.93-179, server: 85.208.108.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵JP-85.208.108.19-180, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇷🇺RU-45.89.228.209-181, server: aeadruaes01.xn--z4q48lcvp.com, port: 35474, type: trojan, password: 6fceea79-f0af-4480-9247-d198d166b522, skip-cert-verify: true}
+  - {name: 🇷🇺RU-45.89.228.209-185, server: aeadruaes01.xn--z4q48lcvp.com, port: 35474, type: trojan, password: 6fceea79-f0af-4480-9247-d198d166b522, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.206-186, server: 213.183.59.206, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: 🇬🇧GB-132.145.51.172-187, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.190-190, server: 213.183.59.190, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇬🇧GB-172.99.190.149-191, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪DE-193.108.118.30-192, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇰🇷KR-121.0.97.47-200, server: clash6-1.ssrfree6.xyz, port: 443, type: ssr, cipher: none, password: dongtaiwang.com, obfs: tls1.2_ticket_auth, protocol: auth_chain_a, obfsparam: , protoparam: , group: SSRProvider}
+  - {name: 🇰🇷KR-138.2.115.240-201, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
+  - {name: 🇳🇱NL-213.183.59.206-203, server: 213.183.59.206, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: 🇰🇷KR-150.230.249.42-208, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true}
+  - {name: 🇷🇺RU-213.183.53.198-209, server: 213.183.53.198, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
+  - {name: 🇫🇷FR-13.38.55.14-210, server: 13.38.55.14, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
+  - {name: 🇷🇺RU-213.183.53.198-211, server: 213.183.53.198, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: 🇯🇵JP-193.38.139.204-213, server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
+  - {name: 🇯🇵JP-193.38.139.204-215, server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
+  - {name: 🇰🇷KR-150.230.249.42-216, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true}
+  - {name: 🇩🇪DE-193.108.118.30-218, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇳🇱NL-213.183.59.211-219, server: 213.183.59.211, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}

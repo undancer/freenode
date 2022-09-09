@@ -1,1 +1,5 @@
 proxies:
+  - {name: 🇭🇰HK-43.229.153.165-167, server: hk.vc3.hyperlinkvpn.xyz, port: 52000, type: trojan, password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8, skip-cert-verify: true}
+  - {name: 🇭🇰HK-43.229.153.165-168, server: hk.vc3.hyperlinkvpn.xyz, port: 52000, type: trojan, password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8, skip-cert-verify: true}
+  - {name: 🇭🇰HK-43.229.153.169-169, server: 43.229.153.169, port: 50202, type: trojan, password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf, skip-cert-verify: true}
+  - {name: 🇭🇰HK-43.229.153.169-183, server: 43.229.153.169, port: 50202, type: trojan, password: 8d49f74a-02c0-4fc2-95bb-a7e36c188acf, skip-cert-verify: true}
