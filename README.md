@@ -467,12 +467,6 @@
 - [Bitz](https://t.me/fffffx2), 节点数量: `41`
 - [2T](https://t.me/fffffx2), 节点数量: `28`
 - [rpiaojiedian](https://gitlab.com/ripaojiedian/freenode), 节点数量: `21`
-
-
-
-## 机场推荐
-
-看看:[免费机场推荐&免费订阅](https://nextblog.littlesite.ml/subabpjc)
   
 
 ## 仓库声明
