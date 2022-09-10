@@ -18,7 +18,7 @@
 
   
 
-测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节点较多，如果要本地测速，就访问 https://openit.littlesite.ml 获取
+测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节点较多。
 
   
 
@@ -28,29 +28,10 @@
 
 ## 使用方法
 
-将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
+将订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
 
   
 
-- [多协议Base64编码](https://raw.githubusercontent.com/LITTLESITE/TopFreeProxies/master/Eternity)
-
-- [Clash](https://raw.githubusercontent.com/LITTLESITE/TopFreeProxies/master/Eternity.yml)
-
-  
-
-另有国内加速链接：
-
-  
-
-- [多协议Base64编码](https://fastly.jsdelivr.net/gh/LITTLESITE/TopFreeProxies@master/Eternity)
-
-- [Clash](https://fastly.jsdelivr.net/gh/LITTLESITE/TopFreeProxies@master/Eternity.yml)
-
-  
-
->`Clash`链接所使用的配置在仓库`./update/provider/`中，有相应配置文件和以国家分类的`proxy-provider`。
-
->
 
 >需要其它配置可使用订阅转换工具自行转换。
 
