@@ -275,7 +275,7 @@
     "id": 34,
     "remarks": "proxypool",
     "site": "https://a1.olololo.xyz/",
-    "url": "https://a1.olololo.xyz/clash/proxies",
+    "url": "https://a1.olololo.xyz/clash/proxies?c=CN,HK,TW",
     "update_method": "auto",
     "enabled": false
   },
