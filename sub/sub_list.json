@@ -117,7 +117,7 @@
     "site": "https://clash.myvm.cc/",
     "url": "https://clash.myvm.cc/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 15,
@@ -253,7 +253,7 @@
     "site": "http://168.138.45.251/",
     "url": "http://168.138.45.251/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 32,
@@ -261,7 +261,7 @@
     "site": "https://free.iam7.tk/",
     "url": "https://free.iam7.tk/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 33,
