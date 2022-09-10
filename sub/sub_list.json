@@ -249,11 +249,11 @@
   },
   {
     "id": 31,
-    "remarks": "ok1991/v2ray",
-    "site": "https://github.com/ok1991/v2ray",
-    "url": "https://topvpn.team/github/t.list",
+    "remarks": "proxypool",
+    "site": "http://168.138.45.251/",
+    "url": "http://168.138.45.251/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 32,
