@@ -241,11 +241,11 @@
   },
   {
     "id": 30,
-    "remarks": "poduv/poduv",
-    "site": "https://github.com/poduv/poduv",
-    "url": "https://raw.githubusercontent.com/poduv/poduv/i/long",
+     "remarks": "资源核",
+    "site": "https://www.onezyh.cn/resource/abroad/898.html",
+    "url": "https://k8hrya.bn.files.1drv.com/y4mTXXIf-KcfFUngYFwin4_5B_1m1jTOlodLkj-gwZELn5fgNr1GNlrwv7iEmBFobv7gy8Ki48ZN9B33RJwphNbXUYvJuJwF5yCNf6e4GspfK0ylCRu1nwZvs4kxGKgWN4bTkgG7wOiv8D8fojH1aCvO9ZeHTtqzqooVBwEIbHcYuNSctYP5-rM8FQRIgG7lYeVJubGiTz22lBWlXMRZRo9cg",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 31,
@@ -257,11 +257,11 @@
   },
   {
     "id": 32,
-    "remarks": "parkerpa/jsfxs",
-    "site": "https://github.com/parkerpa/jsfxs",
-    "url": "https://raw.githubusercontent.com/parkerpa/jsfxs/main/clash",
+    "remarks": "proxypool",
+    "site": "https://free.iam7.tk/",
+    "url": "https://free.iam7.tk/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 33,
@@ -273,11 +273,11 @@
   },
   {
     "id": 34,
-    "remarks": "songkaik/Sub",
-    "site": "https://github.com/songkaik/Sub",
-    "url": "https://raw.githubusercontent.com/songkaik/Sub/main/v2rayN",
+    "remarks": "proxypool",
+    "site": "https://a1.olololo.xyz/",
+    "url": "https://a1.olololo.xyz/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 35,
@@ -295,4 +295,108 @@
     "update_method": "change_date",
     "enabled": true
   }
+    {
+    "id": 37,
+    "remarks": "OPENIT",
+    "site": "https://github.com/LITTLESITE/openit",
+    "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/openit.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 38,
+    "remarks": "proxypool",
+    "site": "https://free886.herokuapp.com/",
+    "url": "https://free886.herokuapp.com/clash/proxies",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 39,
+    "remarks": "anaer/Sub",
+    "site": "https://github.com/anaer/Sub/",
+    "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 40,
+    "remarks": "proxypool",
+    "site": "https://free.dswang.ga/",
+    "url": "https://free.dswang.ga/clash/proxies",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 41,
+    "remarks": "openrunner/clash-freenode",
+    "site": "https://github.com/openrunner/clash-freenode",
+    "url": "https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 42,
+    "remarks": "tbbatbb/Proxy",
+    "site": "https://github.com/tbbatbb/Proxy",
+    "url": "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 43,
+    "remarks": "Rokate/Proxy-Sub",
+    "site": "https://github.com/Rokate/Proxy-Sub",
+    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 44,
+    "remarks": "Rokate/Proxy-Sub",
+    "site": "https://github.com/Rokate/Proxy-Sub",
+    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 45,
+    "remarks": "Rokate/Proxy-Sub",
+    "site": "https://github.com/Rokate/Proxy-Sub",
+    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 46,
+    "remarks": "neocities",
+    "site": "freefq.neocities.org",
+    "url": "https://freefq.neocities.org/free.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 47,
+    "remarks": "Lewis-1217/FreeNodes",
+    "site": "https://github.com/Lewis-1217/FreeNodes",
+    "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 48,
+    "remarks": "Lewis-1217/FreeNodes",
+    "site": "https://github.com/Lewis-1217/FreeNodes",
+    "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 49,
+    "remarks": "learnhard-cn/free_proxy_ss",
+    "site": "https://github.com/learnhard-cn/free_proxy_ss",
+    "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
 ]
