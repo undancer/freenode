@@ -187,7 +187,7 @@
     "id": 23,
     "remarks": "changfengoss",
     "site": "https://github.com/ronghuaxueleng/get_v2",
-    "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml",
+    "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/cfmem.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/pawdroid.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/ssr.yaml",
     "update_method": "auto",
     "enabled": true
   },
