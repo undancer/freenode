@@ -1,13 +1,1 @@
 proxies:
-  - {name: 🇸🇬SG-165.154.253.95-124, server: 99tw03.tfzhc.top, port: 443, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 99tw03.tfzhc.top, skip-cert-verify: true}
-  - {name: 🇸🇬SG-91.243.81.150-125, server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, skip-cert-verify: true}
-  - {name: 🇸🇬SG-91.243.81.150-126, server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, skip-cert-verify: true}
-  - {name: 🇸🇬SG-165.154.253.64-128, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 99tw02.tfzhc.top, skip-cert-verify: true}
-  - {name: 🇸🇬SG-194.233.88.109-155, server: trojan-ctb-sg01.globalssh.xyz, port: 443, type: trojan, password: 123456, skip-cert-verify: true}
-  - {name: 🇸🇬SG-129.226.90.109-196, server: 96hk01.tfzhc.top, port: 44333, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 96hk01.tfzhc.top, skip-cert-verify: true}
-  - {name: 🇸🇬SG-91.243.81.150-197, server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, sni: ttt3.swiftfalcon.app, skip-cert-verify: true}
-  - {name: 🇸🇬SG-54.255.235.191-204, server: 54.255.235.191, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇸🇬SG-18.140.67.76-205, server: 18.140.67.76, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇸🇬SG-43.156.45.226-214, server: 99hk05.tfzhc.top, port: 443, type: trojan, password: 0e1728b8-d891-467f-95a4-9254a6a6d6e3, sni: 99hk05.tfzhc.top, skip-cert-verify: true}
-  - {name: 🇸🇬SG-52.77.243.140-217, server: 52.77.243.140, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
-  - {name: 🇸🇬SG-54.255.235.191-220, server: 54.255.235.191, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true}
