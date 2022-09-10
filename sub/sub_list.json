@@ -153,11 +153,11 @@
   },
   {
     "id": 19,
-    "remarks": "ObcbO/auto-subscribe",
-    "site": "https://github.com/ObcbO/auto-subscribe",
-    "url": "https://raw.githubusercontent.com/ObcbO/auto-subscribe/main/subscribe/v2ray.txt",
+    "remarks": "proxypool",
+    "site": "http://121.37.67.232/",
+    "url": "http://121.37.67.232/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 20,
