@@ -47,3 +47,7 @@ jobs:
         git add README.md
         git add ./update/*
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')筛选节点"
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: master
