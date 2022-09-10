@@ -299,7 +299,7 @@
     "id": 37,
     "remarks": "OPENIT",
     "site": "https://github.com/LITTLESITE/openit",
-    "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/openit.txt|https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/allmysub.txt",
+    "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/allmysub.txt",
     "update_method": "auto",
     "enabled": true
   },
