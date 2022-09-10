@@ -321,11 +321,11 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 if len(proxies_list) >=1000:
-                    proxy['name'] = f'全网最垃白嫖-{name_emoji}-{proxy_index:0>4d}|littlesite.ml'
+                    proxy['name'] = f'{name_emoji}白嫖-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'全网最垃白嫖-{name_emoji}-{proxy_index:0>3d}|littlesite.ml'
+                    proxy['name'] = f'{name_emoji}白嫖-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = f'全网最垃白嫖-{name_emoji}-{proxy_index:0>2d}|littlesite.ml'
+                    proxy['name'] = f'{name_emoji}白嫖-{proxy_index:0>2d}'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
