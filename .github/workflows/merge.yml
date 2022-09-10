@@ -47,6 +47,8 @@ jobs:
         git pull origin master
         git add ./sub
         git add README.md
+        git add ./Eternity
+        git add ./Eternity.yml
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
