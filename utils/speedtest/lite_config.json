@@ -5,7 +5,7 @@
     "sortMethod":"rspeed",
     "concurrency":16,
     "testMode":2,
-    "subscription":"https://raw.githubusercontent.com/mlwrx1978/freenode/master/long",
+    "subscription":"https://raw.githubusercontent.com/mlwrx1978/freenode/master/Clash.yaml",
     "timeout":8,
     "language":"en",
     "fontSize":24,
