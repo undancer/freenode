@@ -33,12 +33,11 @@ jobs:
         pip install -r ./utils/requirements.txt
     - name: 执行任务
       run: |
-        cd 
         chmod +x ./utils/subconverter/subconverter && nohup ./utils/subconverter/subconverter >./subconverter.log 2>&1 &
         python ./utils/list_merge.py
     - name: copy
       run: |
-        mv ./sub/sub_merge_yaml.yml ./utils/subconverter/check.yaml #output ./utils/subconverter/check.yaml
+        cp ./sub/sub_merge_yaml.yml ./utils/subconverter/check.yaml #output ./utils/subconverter/check.yaml
     - name: clash2base64 #input ./utils/subconverter/check.yaml
       run: ./utils/subconverter/subconverter -g --artifact "clash2base64" && rm utils/subconverter/check.yaml #output ./utils/subconverter/check & delete ./utils/subconverter/check.yaml
     - name: base64 decode #because ./utils/subconverter/generate.ini so input ./utils/subconverter/check
