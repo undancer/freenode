@@ -702,8 +702,6 @@ proxies:
   - {name: 🇬🇧 v2rayfree.eu.org - 英国  15 2, server: rbobosz.tk, port: 23868, type: trojan, password: gMVN7PbEX2, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 v2rayfree.eu.org - 英国伦敦Linode数据中心 27, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vuk2.0bad.com}}, udp: true}
   - {name: 🇬🇧 v2rayfree.eu.org - 英国伦敦Linode数据中心 27 2, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vuk2.0bad.com}}, udp: true}
-  - {name: 🇬🇧 v2rayfree.eu.org - 英国社会保险安全部 21, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 🇬🇧 v2rayfree.eu.org - 英国社会保险安全部 21 2, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
   - {name: 🇬🇧 英国 001, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 002, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 003, server: 3.10.180.114, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
