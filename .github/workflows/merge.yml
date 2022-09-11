@@ -41,7 +41,7 @@ jobs:
     - name: base64 decode #because ./utils/subconverter/generate.ini so input ./utils/subconverter/check
       run: base64 -d ./utils/subconverter/check > ./utils/rm/url && rm ./utils/subconverter/check   #output ./utils/rm/url & delete ./utils/subconverter/check ./utils/rm/url1
     - name: remove & rename #input ./utils/rm/url
-      run: cd ./utils/rm/ sort url -o url && npm start #output ./utils/rm/out
+      run: cd ./utils/rm/ && sort url -o url && npm start #output ./utils/rm/out
     - name: url & https
       run: | #input ./utils/rm/out
          rm ./utils/rm/url             #delete ./utils/rm/url
