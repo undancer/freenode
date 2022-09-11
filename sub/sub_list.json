@@ -301,7 +301,7 @@
     "site": "https://github.com/LITTLESITE/openit",
     "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/allmysub.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 38,
