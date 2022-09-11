@@ -995,8 +995,6 @@ proxies:
   - {name: 🇸🇬 SG 3 → openitsub.com 2, server: 139.162.46.222, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 4 → openitsub.com, server: 3.1.6.157, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 4 → openitsub.com 2, server: 3.1.6.157, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5 → openitsub.com, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 🇸🇬 SG 5 → openitsub.com 2, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
   - {name: 🇸🇬 SG 6 → openitsub.com, server: 96hk01.tfzhc.top, port: 44333, type: trojan, password: 53933382-fb70-48bd-adf5-363ae1972459, sni: 96hk01.tfzhc.top, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 6 → openitsub.com 2, server: 96hk01.tfzhc.top, port: 44333, type: trojan, password: 53933382-fb70-48bd-adf5-363ae1972459, sni: 96hk01.tfzhc.top, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 7 → openitsub.com, server: 8.210.212.41, port: 22303, type: vmess, uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
