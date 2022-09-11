@@ -6,7 +6,7 @@ on:
 
   push:
     paths:
-      - './sub/sub_merge_base64.txt'
+      - './Clash.yaml'
   schedule:
     - cron: '05 */12 * * *'
   
