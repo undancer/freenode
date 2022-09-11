@@ -37,9 +37,7 @@ jobs:
         python ./utils/list_merge.py
     - name: copy
       run: |
-        cp ./sub/sub_merge_yaml.yml ./utils/subconverter/check.yaml #output ./utils/subconverter/check.yaml
-    - name: clash2base64 #input ./utils/subconverter/check.yaml
-      run: ./utils/subconverter/subconverter -g --artifact "clash2base64" && rm utils/subconverter/check.yaml #output ./utils/subconverter/check & delete ./utils/subconverter/check.yaml
+        cp ./sub/sub_merge_base64.txt ./utils/subconverter/check #output ./utils/subconverter/check
     - name: base64 decode #because ./utils/subconverter/generate.ini so input ./utils/subconverter/check
       run: base64 -d ./utils/subconverter/check > ./utils/rm/url && rm ./utils/subconverter/check   #output ./utils/rm/url & delete ./utils/subconverter/check ./utils/rm/url1
     - name: remove & rename #input ./utils/rm/url
@@ -64,6 +62,8 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull origin master
         git add ./sub
+        git add ./Clash.yaml
+        git add ./long
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git push origin master
