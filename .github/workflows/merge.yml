@@ -64,6 +64,7 @@ jobs:
         git add ./sub
         git add ./Clash.yaml
         git add ./long
+        git add ./url
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git push origin master
