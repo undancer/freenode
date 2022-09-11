@@ -33,13 +33,32 @@ jobs:
         pip install -r ./utils/requirements.txt
     - name: 执行任务
       run: |
-        wget -O subconverter.tar.gz https://github.com/Mazeorz/subconverter/releases/download/Alpha/subconverter_linux64.tar.gz
-        tar -zxvf subconverter.tar.gz -C ./
-        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
+        cd 
+        chmod +x ./utils/subconverter/subconverter && nohup ./utils/subconverter/subconverter >./subconverter.log 2>&1 &
         python ./utils/list_merge.py
     - name: copy
       run: |
-        cp ./sub/sub_merge_yaml.yml ./sub/sub_merge_yaml.yaml   
+        mv ./sub/sub_merge_yaml.yml ./utils/subconverter/check.yaml #output ./utils/subconverter/check.yaml
+    - name: clash2base64 #input ./utils/subconverter/check.yaml
+      run: ./utils/subconverter/subconverter -g --artifact "clash2base64" && rm utils/subconverter/check.yaml #output ./utils/subconverter/check & delete ./utils/subconverter/check.yaml
+    - name: base64 decode #because ./utils/subconverter/generate.ini so input ./utils/subconverter/check
+      run: base64 -d ./utils/subconverter/check > ./utils/rm/url && rm ./utils/subconverter/check   #output ./utils/rm/url & delete ./utils/subconverter/check ./utils/rm/url1
+    - name: remove & rename #input ./utils/rm/url
+      run: cd ./utils/rm/ && npm start #output ./utils/rm/out
+    - name: url & https
+      run: | #input ./utils/rm/out
+         rm ./utils/rm/url             #delete ./utils/rm/url
+         mv ./utils/rm/out ./url       #output ./url
+         base64 ./url > ./utils/subconverter/base64 -w 0 #url文件base64编码引入subconverter
+         sort url -o url #将url排序并修改至原文件，突出增删的节点 output ./url
+    - name: long & Clash.yaml
+      run: | #input ./utils/subconverter/base64
+         ./utils/subconverter/subconverter -g --artifact "clash"
+         ./utils/subconverter/subconverter -g --artifact "long"
+         #output ./utils/subconverter/Clash.yaml ./utils/subconverter/long
+         mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true #output ./Clash.yaml
+         mv ./utils/subconverter/long ./long || true #output ./Clash.yaml
+         rm ./utils/subconverter/base64 #delete ./utils/subconverter/base64
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
@@ -48,7 +67,4 @@ jobs:
         git add ./sub
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
-    - name: 推送更改
-      uses:  ad-m/github-push-action@master
-      with:
-        branch: master
+        git push origin master
