@@ -829,8 +829,6 @@ proxies:
   - {name: 🇯🇵 JP 7 → openitsub.com 2, server: bo1.paoche.work, port: 9999, type: trojan, password: 0fc39e24-c3f3-4a34-b277-90edae5891ea, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 8 → openitsub.com, server: 172.105.222.177, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 8 → openitsub.com 2, server: 172.105.222.177, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 9 → openitsub.com, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 🇯🇵 JP 9 → openitsub.com 2, server: 172.105.242.17, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
   - {name: 🇯🇵 Tokyo-M, server: 36.139.166.76, port: 19242, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Tokyo-M247, server: 36.139.166.76, port: 19243, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 V108-8x-Tokyo, server: t08.tgfaka.com, port: 38443, type: trojan, password: e2eecdb9-f0d8-40b5-9f20-c2375f4373dd, sni: douyincdn.com, skip-cert-verify: true, udp: true}
