@@ -151,7 +151,7 @@
   
 
 ### 所有节点
-合并节点总数: `4018`
+合并节点总数: `4000`
   
 
 ### 节点来源
@@ -177,10 +177,10 @@
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `15`
 - [kxswa/k](https://github.com/kxswa/k), 节点数量: `60`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `50`
-- [OPENIT](https://github.com/LITTLESITE/openit), 节点数量: `1091`
-- [proxypool](https://free886.herokuapp.com/), 节点数量: `61`
+- [OPENIT](https://github.com/LITTLESITE/openit), 节点数量: `1061`
+- [proxypool](https://free886.herokuapp.com/), 节点数量: `62`
 - [anaer/Sub](https://github.com/anaer/Sub/), 节点数量: `145`
-- [proxypool](https://free.dswang.ga/), 节点数量: `9`
+- [proxypool](https://free.dswang.ga/), 节点数量: `20`
 - [openrunner/clash-freenode](https://github.com/openrunner/clash-freenode), 节点数量: `42`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `492`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `36`
