@@ -38,6 +38,7 @@ jobs:
         python ./utils/speedtest/output.py
         python ./utils/eternity_convert.py
         sudo sh ./utils/url.sh
+        mv base64 ./utils/subconverter/ || true
         ./utils/subconverter/subconverter -g --artifact "re"
         ./utils/subconverter/subconverter -g --artifact "provider"
         mv ./utils/subconverter/provider.yaml ./provider.yaml || true
