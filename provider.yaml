@@ -1,3 +1,1 @@
-proxies:
-  - {name: 38.143.66.99:81, server: 38.143.66.99, port: 81, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 3.113.25.24:443, server: 3.113.25.24, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+proxies: ~
