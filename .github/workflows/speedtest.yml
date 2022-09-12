@@ -41,7 +41,6 @@ jobs:
         cp base64 ./utils/subconverter/ || true
         ./utils/subconverter/subconverter -g --artifact "provider"
         mv ./utils/subconverter/provider.yaml ./provider.yaml || true
-        mv ./utils/subconverter/base ./base || true
     - name: commit
       run: |                 
         git config --local user.email "actions@github.com"
