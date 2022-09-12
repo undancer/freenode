@@ -37,7 +37,7 @@ jobs:
         sudo sh ./utils/speedtest/speedtest.sh
         python ./utils/speedtest/output.py
         python ./utils/eternity_convert.py
-        cp Eternity.yml ./utils/subconverter/
+        sudo sh ./utils/url.sh
         ./utils/subconverter/subconverter -g --artifact "provider"
         mv ./utils/subconverter/provider.yaml ./provider.yaml || true
     - name: commit
@@ -45,6 +45,7 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
+        git add https
         git add Eternity
         git add Eternity.yml
         git add provider.yaml
