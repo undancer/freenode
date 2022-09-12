@@ -1,3 +1,3 @@
 name=`date '+%y%m'`
 name1=`date '+%y%m%d'`
-sort update/$name/$name1.txt -o ./utils/subconverter/1.txt
+sort update/$name/$name1.txt -o ./utils/subconverter/base64
