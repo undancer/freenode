@@ -309,7 +309,7 @@
     "site": "https://free886.herokuapp.com/",
     "url": "https://free886.herokuapp.com/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 39,
@@ -325,7 +325,7 @@
     "site": "https://free.dswang.ga/",
     "url": "https://free.dswang.ga/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 41,
