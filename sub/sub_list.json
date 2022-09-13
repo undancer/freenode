@@ -11,7 +11,7 @@
     "id": 1,
     "remarks": "chfchf0306/clash",
     "site": "https://github.com/chfchf0306/clash",
-    "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/allmysub.yaml|https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml|https://raw.githubusercontent.com/misersun/config003/main/config_all_game.yaml|https://raw.githubusercontent.com/misersun/config002/main/config_all.yaml|https://raw.githubusercontent.com/misersun/config002/main/config_all_game.yaml",
+    "url": "https://raw.githubusercontent.com/misersun/config003/main/config_all.yaml|https://raw.githubusercontent.com/misersun/config003/main/config_all_game.yaml|https://raw.githubusercontent.com/misersun/config002/main/config_all.yaml|https://raw.githubusercontent.com/misersun/config002/main/config_all_game.yaml",
     "update_method": "auto",
     "enabled": false
   },
