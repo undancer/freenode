@@ -157,7 +157,7 @@
     "site": "http://121.37.67.232/",
     "url": "http://121.37.67.232/clash/proxies",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 20,
