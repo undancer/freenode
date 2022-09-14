@@ -35,6 +35,7 @@ jobs:
     - name: speedtest
       run: |
         sudo sh ./utils/speedtest/speedtest.sh
+        cp ./utils/speedtest/out.json ./out.json ||true
         python ./utils/speedtest/output.py
         python ./utils/eternity_convert.py
         sudo sh ./utils/url.sh
@@ -47,6 +48,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull origin master
         git add base64
+        git add out.json
         git add Eternity
         git add Eternity.yml
         git add provider.yaml
