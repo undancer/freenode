@@ -54,8 +54,8 @@ jobs:
          ./utils/subconverter/subconverter -g --artifact "long"
          #output ./utils/subconverter/Clash.yaml ./utils/subconverter/long
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true #output ./Clash.yaml
+         sort -k 6 -k 8 -k 11 -k 12 -k 13 -k 14 -u Clash.yaml -o Clash.yaml || true
          mv ./utils/subconverter/long ./long || true #output ./Clash.yaml
-         rm ./utils/subconverter/base64 #delete ./utils/subconverter/base64
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
