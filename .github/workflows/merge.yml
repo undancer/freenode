@@ -54,9 +54,6 @@ jobs:
          ./utils/subconverter/subconverter -g --artifact "long"
          #output ./utils/subconverter/Clash.yaml ./utils/subconverter/long
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true #output ./Clash.yaml
-         sed -i 's/"%7B%22host%22:%22//g' ./Clash.yaml
-         sed -i 's/%22%7D"//g' ./Clash.yaml
-         sed -i 's/"%7B%22Host%22:%22//g ./Clash.yaml
          mv ./utils/subconverter/long ./long || true #output ./Clash.yaml
          rm ./utils/subconverter/base64 #delete ./utils/subconverter/base64
     - name: 提交更改
