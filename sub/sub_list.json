@@ -225,11 +225,11 @@
   },
   {
     "id": 28,
-    "remarks": "25T",
+    "remarks": "Jsnzkpg",
     "site": "https://t.me/Jsnzk",
-    "url": "https://dingyuedizhi.com/api/v1/client/subscribe?token=f6e2d2cd063ae877b134f3a5e68360ec",
+    "url": "",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 29,
@@ -347,7 +347,7 @@
     "id": 43,
     "remarks": "Rokate/Proxy-Sub",
     "site": "https://github.com/Rokate/Proxy-Sub",
-    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml",
+    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml",
     "update_method": "auto",
     "enabled": true
   },
@@ -355,7 +355,7 @@
     "id": 44,
     "remarks": "Rokate/Proxy-Sub",
     "site": "https://github.com/Rokate/Proxy-Sub",
-    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml",
+    "url": "",
     "update_method": "auto",
     "enabled": true
   },
@@ -363,14 +363,14 @@
     "id": 45,
     "remarks": "Rokate/Proxy-Sub",
     "site": "https://github.com/Rokate/Proxy-Sub",
-    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml",
+    "url": "",
     "update_method": "auto",
     "enabled": true
   },
   {
     "id": 46,
     "remarks": "neocities",
-    "site": "freefq.neocities.org",
+    "site": "https://freefq.neocities.org",
     "url": "https://freefq.neocities.org/free.txt",
     "update_method": "auto",
     "enabled": true
@@ -379,7 +379,7 @@
     "id": 47,
     "remarks": "Lewis-1217/FreeNodes",
     "site": "https://github.com/Lewis-1217/FreeNodes",
-    "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
+    "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1|https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
     "update_method": "auto",
     "enabled": true
   },
@@ -387,7 +387,7 @@
     "id": 48,
     "remarks": "Lewis-1217/FreeNodes",
     "site": "https://github.com/Lewis-1217/FreeNodes",
-    "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
+    "url": "",
     "update_method": "auto",
     "enabled": true
   },
