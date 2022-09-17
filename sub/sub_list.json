@@ -51,7 +51,7 @@
     "id": 6,
     "remarks": "colatiger/v2ray-nodes",
     "site": "https://github.com/colatiger/v2ray-nodes",
-    "url": "https://bitbucket.org/huwo1/proxy_nodes/raw/main/proxy.md",
+    "url": "https://bitbucket.org/huwo1/proxy_nodes/raw/main/proxy.md|https://bitbucket.org/huwo1/proxy_nodes/raw/main/ss.md|https://bitbucket.org/huwo1/proxy_nodes/raw/main/trojan.md|https://bitbucket.org/huwo1/proxy_nodes/raw/main/vmess.md|https://bitbucket.org/huwo1/proxy_nodes/raw/main/clash.yaml",
     "update_method": "auto",
     "enabled": true
   },
