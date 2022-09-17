@@ -60,7 +60,7 @@ class update_url():
             file.close()
 
     def change_date(id,current_url):
-        if id == 36:
+        if id == 20:
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%Y%m')
             url_front = 'https://nodefree.org/dy/'
@@ -78,7 +78,7 @@ class update_url():
             return current_url
 
     def find_link(id,current_url):
-        if id == 33:
+        if id == 18:
             url_update = 'https://v2cross.com/archives/1884'
 
             if url_updated(url_update):
