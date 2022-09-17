@@ -222,7 +222,7 @@
     "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml",
     "update_method": "auto",
     "enabled": true
-  }
+  },
   {
     "id": 28,
     "remarks": "vpei/Free-Node-Merge",
