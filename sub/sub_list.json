@@ -231,12 +231,4 @@
     "update_method": "auto",
     "enabled": true
   }
-  {
-    "id": 29,
-    "remarks": "wrfree/free",
-    "site": "https://github.com/wrfree/free",
-    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
-    "update_method": "auto",
-    "enabled": true
-  }
 ]
