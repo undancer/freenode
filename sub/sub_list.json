@@ -73,38 +73,6 @@
   },
   {
     "id": 9,
-    "remarks": "Leon406/SubCrawler",
-    "site": "https://github.com/Leon406/SubCrawler",
-    "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 10,
-    "remarks": "yu-steven/openit",
-    "site": "https://github.com/yu-steven/openit",
-    "url": "https://raw.githubusercontent.com/yu-steven/openit/main/Clash.yaml",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 11,
-    "remarks": "alanbobs999/TopFreeProxies",
-    "site": "https://github.com/alanbobs999/TopFreeProxies",
-    "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/main/Eternity",
-    "update_method": "auto",
-    "enabled": true
-  },
-  {
-    "id": 12,
-    "remarks": "iwxf/free-v2ray",
-    "site": "https://github.com/iwxf/free-v2ray",
-    "url": "https://raw.githubusercontent.com/iwxf/free-v2ray/master/index.html",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 13,
     "remarks": "ripaojiedian/freenode",
     "site": "https://github.com/ripaojiedian/freenode/",
     "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
@@ -112,15 +80,7 @@
     "enabled": true
   },
   {
-    "id": 14,
-    "remarks": "proxypool",
-    "site": "https://clash.myvm.cc/",
-    "url": "https://clash.myvm.cc/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 15,
+    "id": 10,
     "remarks": "Jsnzkpg/Jsnzkpg",
     "site": "https://github.com/Jsnzkpg/Jsnzkpg",
     "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
@@ -128,7 +88,7 @@
     "enabled": true
   },
   {
-    "id": 16,
+    "id": 11,
     "remarks": "ermaozi/get_subscribe",
     "site": "https://github.com/ermaozi/get_subscribe",
     "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
@@ -136,7 +96,7 @@
     "enabled": true
   },
   {
-    "id": 17,
+    "id": 12,
     "remarks": "wrfree/free",
     "site": "https://github.com/wrfree/free",
     "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
@@ -144,47 +104,7 @@
     "enabled": true
   },
   {
-    "id": 18,
-    "remarks": "GreenFishStudio/GreenFish",
-    "site": "https://github.com/GreenFishStudio/GreenFish",
-    "url": "https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/GreenFishYYDS",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 19,
-    "remarks": "proxypool",
-    "site": "http://121.37.67.232/",
-    "url": "http://121.37.67.232/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 20,
-    "remarks": "Jinxnet 节点池",
-    "site": "https://pool.jinxnet.xyz",
-    "url": "https://pool.jinxnet.xyz/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 21,
-    "remarks": "tomdegnan/clashrule",
-    "site": "https://github.com/tomdegnan/clashrule",
-    "url": "https://raw.githubusercontent.com/tomdegnan/clashrule/master/lava",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 22,
-    "remarks": "TG@getv2ray",
-    "site": "https://t.me/getv2ray",
-    "url": "http://hzx852iu28.youhui112.com/subscribe",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 23,
+    "id": 13,
     "remarks": "changfengoss",
     "site": "https://github.com/ronghuaxueleng/get_v2",
     "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/cfmem.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/pawdroid.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/ssr.yaml",
@@ -192,7 +112,7 @@
     "enabled": true
   },
   {
-    "id": 24,
+    "id": 14,
     "remarks": "anaer/Sub",
     "site": "https://github.com/anaer/Sub",
     "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
@@ -200,7 +120,7 @@
     "enabled": true
   },
   {
-    "id": 25,
+    "id": 15,
     "remarks": "xrayfree/free-ssr-ss-v2ray-vpn-clash",
     "site": "https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash",
     "url": "https://freefq.neocities.org/free.txt",
@@ -208,15 +128,7 @@
     "enabled": true
   },
   {
-    "id": 26,
-    "remarks": "KYLELI1991/sysucc",
-    "site": "https://github.com/KYLELI1991/sysucc",
-    "url": "https://raw.githubusercontent.com/KYLELI1991/sysucc/main/Temp",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 27,
+    "id": 16,
     "remarks": "mhmhone/shadowrocket-free-subscribe",
     "site": "https://github.com/mhmhone/shadowrocket-free-subscribe",
     "url": "https://bulink.me/sub/m5aep/cl",
@@ -224,23 +136,7 @@
     "enabled": true
   },
   {
-    "id": 28,
-    "remarks": "Jsnzkpg",
-    "site": "https://t.me/Jsnzk",
-    "url": "",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 29,
-    "remarks": "moneyfly1/sublist",
-    "site": "https://github.com/moneyfly1/sublist",
-    "url": "https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 30,
+    "id": 17,
     "remarks": "资源核",
     "site": "https://www.onezyh.cn/resource/abroad/898.html",
     "url": "https://k8hrya.bn.files.1drv.com/y4mTXXIf-KcfFUngYFwin4_5B_1m1jTOlodLkj-gwZELn5fgNr1GNlrwv7iEmBFobv7gy8Ki48ZN9B33RJwphNbXUYvJuJwF5yCNf6e4GspfK0ylCRu1nwZvs4kxGKgWN4bTkgG7wOiv8D8fojH1aCvO9ZeHTtqzqooVBwEIbHcYuNSctYP5-rM8FQRIgG7lYeVJubGiTz22lBWlXMRZRo9cg",
@@ -248,23 +144,7 @@
     "enabled": true
   },
   {
-    "id": 31,
-    "remarks": "proxypool",
-    "site": "http://168.138.45.251/",
-    "url": "http://168.138.45.251/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 32,
-    "remarks": "proxypool",
-    "site": "https://free.iam7.tk/",
-    "url": "https://free.iam7.tk/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 33,
+    "id": 18,
     "remarks": "Pawdroid/Free-servers",
     "site": "https://github.com/Pawdroid/Free-servers",
     "url": "https://shadowshare.v2cross.com/publicserver/servers/temp/kER0ONm1igZAJovf",
@@ -272,15 +152,7 @@
     "enabled": true
   },
   {
-    "id": 34,
-    "remarks": "proxypool",
-    "site": "https://a1.olololo.xyz/",
-    "url": "https://a1.olololo.xyz/clash/proxies?c=CN,HK,TW",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 35,
+    "id": 19,
     "remarks": "kxswa/k",
     "site": "https://github.com/kxswa/k",
     "url": "https://raw.githubusercontent.com/kxswa/k/k/v2ray",
@@ -288,7 +160,7 @@
     "enabled": true
   },
   {
-    "id": 36,
+    "id": 20,
     "remarks": "Nodefree.org",
     "site": "https://github.com/Fukki-Z/nodefree",
     "url": "https://nodefree.org/dy/202209/20220916.txt",
@@ -296,23 +168,7 @@
     "enabled": true
   },
   {
-    "id": 37,
-    "remarks": "OPENIT",
-    "site": "https://github.com/LITTLESITE/openit",
-    "url": "https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/allmysub.txt",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 38,
-    "remarks": "proxypool",
-    "site": "https://free886.herokuapp.com/",
-    "url": "https://free886.herokuapp.com/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 39,
+    "id": 21,
     "remarks": "anaer/Sub",
     "site": "https://github.com/anaer/Sub/",
     "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
@@ -320,15 +176,7 @@
     "enabled": true
   },
   {
-    "id": 40,
-    "remarks": "proxypool",
-    "site": "https://free.dswang.ga/",
-    "url": "https://free.dswang.ga/clash/proxies",
-    "update_method": "auto",
-    "enabled": false
-  },
-  {
-    "id": 41,
+    "id": 22,
     "remarks": "openrunner/clash-freenode",
     "site": "https://github.com/openrunner/clash-freenode",
     "url": "https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml",
@@ -336,7 +184,7 @@
     "enabled": true
   },
   {
-    "id": 42,
+    "id": 23,
     "remarks": "tbbatbb/Proxy",
     "site": "https://github.com/tbbatbb/Proxy",
     "url": "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml",
@@ -344,7 +192,7 @@
     "enabled": true
   },
   {
-    "id": 43,
+    "id": 24,
     "remarks": "Rokate/Proxy-Sub",
     "site": "https://github.com/Rokate/Proxy-Sub",
     "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml",
@@ -352,23 +200,7 @@
     "enabled": true
   },
   {
-    "id": 44,
-    "remarks": "Rokate/Proxy-Sub",
-    "site": "https://github.com/Rokate/Proxy-Sub",
-    "url": "",
-    "update_method": "auto",
-    "enabled": true
-  },
-  {
-    "id": 45,
-    "remarks": "Rokate/Proxy-Sub",
-    "site": "https://github.com/Rokate/Proxy-Sub",
-    "url": "",
-    "update_method": "auto",
-    "enabled": true
-  },
-  {
-    "id": 46,
+    "id": 25,
     "remarks": "neocities",
     "site": "https://freefq.neocities.org",
     "url": "https://freefq.neocities.org/free.txt",
@@ -376,7 +208,7 @@
     "enabled": true
   },
   {
-    "id": 47,
+    "id": 26,
     "remarks": "Lewis-1217/FreeNodes",
     "site": "https://github.com/Lewis-1217/FreeNodes",
     "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1|https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
@@ -384,15 +216,7 @@
     "enabled": true
   },
   {
-    "id": 48,
-    "remarks": "Lewis-1217/FreeNodes",
-    "site": "https://github.com/Lewis-1217/FreeNodes",
-    "url": "",
-    "update_method": "auto",
-    "enabled": true
-  },
-  {
-    "id": 49,
+    "id": 27,
     "remarks": "learnhard-cn/free_proxy_ss",
     "site": "https://github.com/learnhard-cn/free_proxy_ss",
     "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml",
