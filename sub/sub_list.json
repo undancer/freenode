@@ -65,9 +65,9 @@
   },
   {
     "id": 8,
-    "remarks": "ssrsub/ssr",
-    "site": "https://github.com/ssrsub/ssr",
-    "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray|https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub|https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub|https://raw.githubusercontent.com/ssrsub/ssr/master/trojan",
+    "remarks": "aiboboxx/v2rayfree",
+    "site": "https://github.com/aiboboxx/v2rayfree",
+    "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
     "update_method": "auto",
     "enabled": true
   },
