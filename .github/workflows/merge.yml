@@ -51,14 +51,15 @@ jobs:
     - name: long & Clash.yaml
       run: | #input ./utils/subconverter/base64
          ./utils/subconverter/subconverter -g --artifact "clash"
-         ./utils/subconverter/subconverter -g --artifact "long"
          #output ./utils/subconverter/Clash.yaml ./utils/subconverter/long
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true #output ./Clash.yaml
          sed -i "s/\"%7B%22host%22:%22//g" Clash.yaml
          sed -i "s/%22%7D\"//g" Clash.yaml
          sed -i "s/\"%7B%22Host%22:%22//g" Clash.yaml
          sort -t, -k2 -k3 -k5 -k6 -u Clash.yaml -o Clash.yaml || true
-         mv ./utils/subconverter/long ./long || true #output ./Clash.yaml
+         cp Clash.yaml ./utils/subconverter/
+         ./utils/subconverter/subconverter -g --artifact "long"
+         mv ./utils/subconverter/long ./long || true #output ./long
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
