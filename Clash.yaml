@@ -275,7 +275,7 @@ proxies:
   - {name: 🇨🇦 CA 10, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇨🇦 CA 5, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 🇨🇦 CA 3, server: 142.202.51.98, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: 🇺🇸 US 23, server: 143.198.64.218, port: 15446, type: ss, cipher: chacha20-poly1305, password: Mx1orhUtqD, udp: true}
+  - {name: 🇺🇸 US 23, server: 143.198.64.218, port: 15446, type: ss, cipher: chacha20-ietf-poly1305, password: Mx1orhUtqD, udp: true}
   - {name: 🇺🇸 US 504, server: 143.198.74.105, port: 25033, type: vmess, uuid: dd57f302-6b57-40ed-fd77-4a61c8aa46fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 116, server: 143.244.57.118, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
   - {name: 🇺🇸 US 34, server: 144.168.58.170, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
