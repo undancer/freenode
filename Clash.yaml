@@ -14,8 +14,8 @@ proxies:
   - {name: 🇯🇵 JP 43, server: 1009jp.tfzhc.top, port: 80, type: trojan, password: 1a17faee-e35d-48e8-9708-e0a7b7ef04a1, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 7, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 14, server: 103.103.245.125, port: 50418, type: trojan, password: a70b39d1-62ea-4d9e-b681-9c5408352234, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 2, server: 103.137.22.42, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: "", host: fn600mliness018.fnline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
-  - {name: 🇨🇳 TW 4, server: 103.137.22.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: "", host: fn600mliness018.fnline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+  - {name: 🇨🇳 TW 2, server: 103.137.22.42, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: "websocket", host: fn600mliness018.fnline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+  - {name: 🇨🇳 TW 4, server: 103.137.22.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: "websocket", host: fn600mliness018.fnline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
   - {name: 🇨🇳 TW 3, server: 103.137.22.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, udp: true}
   - {name: unknown 112, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 113, server: 103.159.133.166, port: 31372, type: vmess, uuid: 912864fc-41c2-44e2-dcdf-0b01ef96237e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
