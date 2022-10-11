@@ -61,7 +61,7 @@ jobs:
          cp Clash.yaml ./utils/subconverter/
          ./utils/subconverter/subconverter -g --artifact "long"
          mv ./utils/subconverter/long ./long || true #output ./long
-         base64 ./long > ./url -w 0 
+         base64 -d ./long > ./url
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
