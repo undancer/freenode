@@ -602,7 +602,7 @@ proxies:
   - {name: 🇺🇸 US 454, server: 20.70.19.80, port: 443, type: vmess, uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-mode: none, grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 US 114, server: 20.9.46.251, port: 8080, type: ss, cipher: aes-256-gcm, password: a8e6ed48-b227-443e-96e0-d13d46d9ea32, udp: true}
   - {name: 🇺🇸 US 117, server: 20.90.249.210, port: 8080, type: ss, cipher: aes-256-gcm, password: da45bc49-e9b5-4109-aa5f-ad02efa2f340, udp: true}
-  - {name: 🇨🇳 TW 18, server: 202.153.5.65, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: "", host: fndx600mtwline010tr.fnline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+  - {name: 🇨🇳 TW 18, server: 202.153.5.65, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: "websocket", host: fndx600mtwline010tr.fnline.xyz, path: "/", tls: true, mux: false, skip-cert-verify: true}, udp: true}
   - {name: 🇮🇳 IN 3, server: 202.78.174.239, port: 32471, type: vmess, uuid: 9279ddcc-2254-4287-82a2-fce591de152a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 202.78.174.239}}, udp: true}
   - {name: 🇺🇸 US 556, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 167, server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
