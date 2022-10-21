@@ -58,6 +58,7 @@ jobs:
          sed -i "s/\"%7B%22Host%22:%22//g" Clash.yaml
          sed -i "s/chacha20-poly1305/chacha20-ietf-poly1305/g" Clash.yaml
          sed -i "/plugin: v2ray-plugin, plugin-opts: {mode: \"\"/d" Clash.yaml
+         sed -i "/tls: false, skip-cert-verify: true, network: grpc/tls: true, skip-cert-verify: true, network: grpc/g" Clash.yaml
          sort -t, -k2 -k3 -k5 -k6 -u Clash.yaml -o Clash.yaml || true
          cp Clash.yaml ./utils/subconverter/
          ./utils/subconverter/subconverter -g --artifact "long"
