@@ -64,6 +64,9 @@ jobs:
          ./utils/subconverter/subconverter -g --artifact "long"
          mv ./utils/subconverter/long ./long || true #output ./long
          base64 -d ./long > ./url
+         cp ./url ./Surf
+         sed -i "/ssr:/d" ./Surf
+         base64 -d ./Surf > ./surf
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
@@ -73,6 +76,7 @@ jobs:
         git add ./Clash.yaml
         git add ./long
         git add ./url
+        git add ./surf
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git push origin master
