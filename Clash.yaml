@@ -192,9 +192,6 @@ proxies:
   - {name: 🇨🇳 CN 1099, server: 117.164.185.221, port: 16119, type: vmess, uuid: 8d8d6d3d-b9ef-30b7-9cc6-3ebf5e3d70f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 1073, server: 117.164.185.221, port: 16131, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 0.79|httpsawkjcfky 注册体验流媒体机场youtube阿伟科技1, server: 117.28.245.197, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇨🇳 CN 52, server: 117.78.35.68, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: "", host: ""}, udp: true}
-  - {name: 🇨🇳 CN 53, server: 117.78.35.68, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: "", host: ""}, udp: true}
-  - {name: 🇨🇳 CN 54, server: 117.78.35.68, port: 11011, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: "", host: ""}, udp: true}
   - {name: unknown 116, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR 10, server: 118.107.57.180, port: 27542, type: vmess, uuid: 0c88b5fe-b19b-4b17-9abb-99a0824d04f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: unknown 117, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
