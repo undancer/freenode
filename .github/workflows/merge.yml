@@ -12,15 +12,20 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    services:
+      subconverter:
+        image: tindy2013/subconverter:latest
+        ports:
+          - 25500:25500
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: 安装Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: '3.x'
     - name: 加载缓存
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
@@ -32,9 +37,10 @@ jobs:
       run: |
         pip install -r ./utils/requirements.txt
     - name: 执行任务
-      run: |
-        chmod +x ./utils/subconverter/subconverter && nohup ./utils/subconverter/subconverter >./subconverter.log 2>&1 &
-        python ./utils/list_merge.py
+      # run: |
+      #   chmod +x ./utils/subconverter/subconverter && nohup ./utils/subconverter/subconverter >./subconverter.log 2>&1 &
+      #   python ./utils/list_merge.py
+      run: python ./utils/list_merge.py
     - name: copy
       run: |
         cp ./sub/sub_merge_base64.txt ./utils/subconverter/check #output ./utils/subconverter/check
