@@ -1,81 +1,95 @@
-# This is a basic workflow that is manually triggered
+name: sub Merge
 
-name: Manual workflow
-
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
+# 触发条件
 on:
+  workflow_dispatch:
   push:
     branches:
-      - 'main'
-      - 'master'
-      - 'releases/**'
-  # schedule:
-  #   # * is a special character in YAML so you have to quote this string
+      - "main"
+      - "master"
+      - "releases/**"
+  schedule:
+    # - cron: '*/5 * * * *'
+    # 表达式生成  https://crontab.guru/
+    - cron: '0 */12 * * *'
   #   - cron:  '30 5,17 * * *'
 
-  # workflow_dispatch:
-  #   # Inputs the workflow accepts.
-  #   inputs:
-  #     name:
-  #       # Friendly description to be shown in the UI instead of 'name'
-  #       description: 'Person to greet'
-  #       # Default value if no value is explicitly provided
-  #       default: 'World'
-  #       # Input has to be provided for the workflow to run
-  #       required: true
-
 jobs:
-  # Label of the container job
-  container-job:
-    # Containers must run in Linux based operating systems
+  runner-job:
     runs-on: ubuntu-latest
-    # Docker Hub image that `container-job` executes in
-    container: node:10.18-jessie
-
-    # Service containers to run with `container-job`
     services:
-      # Label used to access the service container
-      redis:
-        # Docker Hub image
-        image: redis
-        # Set health checks to wait until redis has started
-        options: >-
-          --health-cmd "redis-cli ping"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
+      subconverter:
+        image: tindy2013/subconverter:latest
+        ports:
+          - 25500:25500
 
     steps:
-      # Downloads a copy of the code in your repository before running CI tests
-      - name: Check out repository code
+      - name: 迁出代码
         uses: actions/checkout@v3
-
-      # Performs a clean installation of all dependencies in the `package.json` file
-      # For more information, see https://docs.npmjs.com/cli/ci.html
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Connect to Redis
-        # Runs a script that creates a Redis client, populates
-        # the client with data, and retrieves data
-        run: node client.js
-        # Environment variable used by the `client.js` script to create a new Redis client.
-        env:
-          # The hostname used to communicate with the Redis service container
-          REDIS_HOST: redis
-          # The default Redis port
-          REDIS_PORT: 6379
-
-# # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-# jobs:
-#   # This workflow contains a single job called "greet"
-#   greet:
-#     # The type of runner that the job will run on
-#     runs-on: ubuntu-latest
-
-#     # Steps represent a sequence of tasks that will be executed as part of the job
-#     steps:
-#     # Runs a single command using the runners shell
-#     - name: Send greeting
-#       run: echo "Hello ${{ github.event.inputs.name }}"
+      - name: 安装Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
+      - name: 加载缓存
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: 设置时区
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      - name: 安装依赖
+        run: |
+          pip install -r ./utils/requirements.txt
+      - name: 执行任务
+        # run: |
+        #   chmod +x ./utils/subconverter/subconverter && nohup ./utils/subconverter/subconverter >./subconverter.log 2>&1 &
+        #   python ./utils/list_merge.py
+        run: python ./utils/list_merge.py
+      - name: copy
+        run: |
+          cp ./sub/sub_merge_base64.txt ./utils/subconverter/check #output ./utils/subconverter/check
+      - name: base64 decode #because ./utils/subconverter/generate.ini so input ./utils/subconverter/check
+        run: base64 -d ./utils/subconverter/check > ./utils/rm/url && rm ./utils/subconverter/check #output ./utils/rm/url & delete ./utils/subconverter/check ./utils/rm/url1
+      - name: remove & rename #input ./utils/rm/url
+        run: cd ./utils/rm/ && sort url -o url && npm start #output ./utils/rm/out
+      - name: url & https
+        run: | #input ./utils/rm/out
+          rm ./utils/rm/url             #delete ./utils/rm/url
+          mv ./utils/rm/out ./url       #output ./url
+          base64 ./url > ./utils/subconverter/base64 -w 0 #url文件base64编码引入subconverter
+          sort url -o url #将url排序并修改至原文件，突出增删的节点 output ./url
+      - name: long & Clash.yaml
+        run: | #input ./utils/subconverter/base64
+          ./utils/subconverter/subconverter -g --artifact "clash"
+          #output ./utils/subconverter/Clash.yaml ./utils/subconverter/long
+          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true #output ./Clash.yaml
+          sed -i "s/\"%7B%22host%22:%22//g" Clash.yaml
+          sed -i "s/%22%7D\"//g" Clash.yaml
+          sed -i "s/\"%7B%22Host%22:%22//g" Clash.yaml
+          sed -i "s/chacha20-poly1305/chacha20-ietf-poly1305/g" Clash.yaml
+          sed -i "/plugin: v2ray-plugin, plugin-opts: {mode: \"\"/d" Clash.yaml
+          sed -i "/plugin: obfs, plugin-opts: {mode: \"\"/d" Clash.yaml
+          sed -i "s/tls: false, skip-cert-verify: true, network: grpc/tls: true, skip-cert-verify: true, network: grpc/g" Clash.yaml
+          sort -t, -k2 -k3 -k5 -k6 -u Clash.yaml -o Clash.yaml || true
+          cp Clash.yaml ./utils/subconverter/
+          ./utils/subconverter/subconverter -g --artifact "long"
+          mv ./utils/subconverter/long ./long || true #output ./long
+          base64 -d ./long > ./url
+          cp ./url ./Surf
+          sed -i "/ssr:/d" ./Surf
+          base64 ./Surf > ./surf -w 0
+      - name: 提交更改
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin master
+          git add ./sub
+          git add ./Clash.yaml
+          git add ./long
+          git add ./url
+          git add ./surf
+          git add README.md
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
+          git push origin master
