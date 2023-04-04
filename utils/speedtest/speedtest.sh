@@ -15,6 +15,7 @@ chmod +x ./clash && ./clash &
 sudo apt-get install proxychains
 sudo chmod 777 ../../../../../etc/proxychains.conf
 mv -f proxychains.conf ../../../../../etc/proxychains.conf
+cat proxychains.conf
 #开始运行 Clash
 sudo pkill -f clash
 ./clash -f clash_config.yml &

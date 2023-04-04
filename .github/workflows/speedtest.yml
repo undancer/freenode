@@ -35,6 +35,7 @@ jobs:
     - name: speedtest
       run: |
         sudo sh ./utils/speedtest/speedtest.sh
+        echo shell done
         python ./utils/speedtest/output.py
         python ./utils/eternity_convert.py
         sudo sh ./utils/url.sh
