@@ -9,7 +9,7 @@ on:
     #   - 'master'
     #   - 'releases/**'
     paths:
-      - './github/workflows/merge.yml'
+      - './.github/workflows/merge.yml'
   schedule:
     # - cron: '*/5 * * * *'
     # 表达式生成  https://crontab.guru/
