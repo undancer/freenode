@@ -552,7 +552,7 @@
   
 
 ### 所有节点
-合并节点总数: `3894`
+合并节点总数: `3896`
   
 
 ### 节点来源
@@ -583,7 +583,7 @@
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `204`
 - [neocities](https://freefq.neocities.org), 节点数量: `220`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), 节点数量: `74`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `90`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `92`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `354`
 
 ## 仓库声明
