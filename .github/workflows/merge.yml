@@ -3,7 +3,13 @@ name: sub_merge
 # 触发条件
 on:
   workflow_dispatch:
-
+  push:
+    # branches:
+    #   - 'main'
+    #   - 'master'
+    #   - 'releases/**'
+    paths:
+      - './github/workflows/merge.yml'
   schedule:
     # - cron: '*/5 * * * *'
     # 表达式生成  https://crontab.guru/
@@ -21,7 +27,7 @@ jobs:
     - name: 迁出代码
       uses: actions/checkout@v3
     - name: 安装Python
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     - name: 加载缓存
@@ -78,7 +84,7 @@ jobs:
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git pull origin master
+        git pull origin main
         git add ./sub
         git add ./Clash.yaml
         git add ./long
@@ -86,4 +92,4 @@ jobs:
         git add ./surf
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
-        git push origin master
+        git push origin main
