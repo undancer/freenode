@@ -1,3 +1,1 @@
-Internal server error while processing request path '/sub' with arguments 'target=mixed&url=https%3A%2F%2Fraw.githubusercontent.com%2Fopenrunner%2Fclash-freenode%2Fmain%2Fclash.yaml&insert=false&emoji=true&list=true'!
-  exception: YAML::ParserException
-  what(): yaml-cpp: error at line 18, column 12: unknown token
+Url 解析错误
